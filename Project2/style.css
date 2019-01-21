@@ -1,0 +1,129 @@
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height: auto;
+}
+.first{
+  height: 100vh;
+  background-size: 100vw 100%;
+  background-color: #fefefe;
+  background-image: url(./img/block1.png);
+  background-repeat: no-repeat;  
+  background-blend-mode: overlay;
+  background-color: #5900b3;
+}
+.block{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	
+}
+.title{
+  display: flex;
+  max-width: 1200px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-family: PlayfairDisplay;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3px;
+}
+.line1{
+  transition: background 0.3s ease;
+}
+.about{
+  width: 600px;
+  height: 65px;
+  font-size: 15px;
+  color:white;
+  font-weight: lighter;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.learn_more{
+  margin: 0 auto;
+  width: 120px;
+  height: 42px;
+  border: 2px solid #00e0d0;
+  font-family: Roboto;
+  background-color:transparent ;
+}
+.learn{
+  margin:80px 0;
+  width: 120px;
+  height: 42px;
+  border: 2px solid #00e0d0;
+  font-family: Roboto;
+  background-color:transparent ;
+  float:left;
+}
+.second{
+    padding: 0 80px;
+    margin: 0 80px;
+    width: 1000px;
+    height: 300px;
+    background-color: var(--white);
+}
+.image{
+   display: flex;
+   padding: 20px;
+   float: left;
+   margin-left: 50px;
+   width: auto;
+   max-height: 150px;
+   display:block;
+}
+.title2{
+	color: #413d4b;
+	float: left;
+	font-family: PlayfairDisplay;
+	font-size: 22px;
+    font-weight: bolder;
+	width: 600px;
+	height: 45px;
+	display:block;
+	text-transform: uppercase;
+}
+.story{
+  margin:0 30px;
+  width: 600px;
+  height: 70px;
+  font-size: 17px;
+  color:#413d4b;
+  display:flex;
+}
+.third3{
+  height: 550px;
+  object-fit: contain;
+  background-image: url(./img/video.png);
+  opacity: 0.85;
+  box-shadow:0 0 0 400px rgba(0, 0, 128, 0.78) inset; 
+}
+.thirdBlock{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.thirdBlock > img {
+    width: 100px;
+}
+video{
+  width: 300px;
+  height: 250px;
+}
+.text3{
+	font: 1.57rem Roboto-Black, sans-serif;
+    letter-spacing: 0.8px;
+    color: #fefefe;
+	font-size: 15px;
+    font-weight: bolder;
+	display:block;
+}
+
